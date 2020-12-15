@@ -17,7 +17,7 @@ class ModelView extends React.Component {
     componentWillReceiveProps(nextProps) {
         if (nextProps.current !== this.props.current) {
             this.rotation.setValue(0);
-            Animated.timing(this.rotation, { toValue: 360, duration: 20000 }).start();
+            Animated.timing(this.rotation, { toValue: 360, duration: 30000 }).start();
         }
     }
 
